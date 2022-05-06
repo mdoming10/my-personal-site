@@ -2,7 +2,10 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 25px;
+  background-color: #272725;
+  color: #ffffff;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 /*Header syling*/
@@ -10,14 +13,15 @@ body {
 .header {
     display: flex;
     justify-content: left;
-    overflow: hidden;
+    margin-top: 25px;
     margin-bottom: 50px;
 }
 
 .name {
    font-size: xx-large;
-   font-weight: bold;
-    margin-right: auto;
+   font-weight: light;
+   margin-right: auto;
+   margin-top: 0px;
 }
 
 .github-logo,.linkedin-logo {
@@ -34,13 +38,12 @@ body {
 
 .headshot-and-blurb {
     display: flex;
-    justify-content: left;
     margin-bottom: 50px;
 }
 
 .photo {
-    height: 426px;
-    width: 426px;
+    height: auto;
+    width: 300px;
     margin-right: 100px;
 }
 
@@ -48,6 +51,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: large;
+}
+
+.experience-header {
+    margin-bottom: 0px;
+}
+
+#job-experience {
+    margin-top: 0px;
+}
+
+#education-details {
+    margin-top: 0px;
+    margin-left: 40px;
 }
 
 /*Skills and tools styling*/
@@ -55,7 +72,12 @@ body {
 .skills-and-tools-section {
     display: flex;
     margin-bottom: 50px;
+    margin-left: -25px;
+    margin-right: -25px;
     justify-content: space-evenly;
+    background-color: #ffffff;
+    color: #272725;
+    font-size: large;
 }
 
 /*Portfolio styling*/
@@ -64,6 +86,7 @@ body {
     display:flex;
     margin-bottom: 50px;
     flex-direction: column;
+    font-size: large;
 }
 
 /*Footer styling*/
@@ -72,6 +95,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: #949189;
+    font-size: large;
+    font-weight: normal;
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-bottom: -25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .footer-logo {

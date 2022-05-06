@@ -10,6 +10,7 @@ body {
 .header {
     display: flex;
     justify-content: left;
+    overflow: hidden;
     margin-bottom: 50px;
 }
 
@@ -54,20 +55,23 @@ body {
 .skills-and-tools-section {
     display: flex;
     margin-bottom: 50px;
+    justify-content: space-evenly;
 }
 
 /*Portfolio styling*/
 
 .portfolio {
     display:flex;
-    flex-direction: column; 
+    margin-bottom: 50px;
+    flex-direction: column;
 }
 
 /*Footer styling*/
 
 .footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .footer-logo {

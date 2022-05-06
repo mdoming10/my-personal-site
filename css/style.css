@@ -18,7 +18,7 @@ body {
 }
 
 .name {
-   font-size: xx-large;
+   font-size: x-large;
    font-weight: light;
    margin-right: auto;
    margin-top: 0px;
@@ -33,38 +33,23 @@ body {
     margin-right: 25px;
 }
 
-
 /*Headshot + blurb syling*/
 
 .headshot-and-blurb {
     display: flex;
     margin-bottom: 50px;
+    justify-content: space-evenly;
 }
 
 .photo {
     height: auto;
     width: 300px;
     margin-right: 100px;
+
 }
 
 .bio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: large;
-}
-
-.experience-header {
-    margin-bottom: 0px;
-}
-
-#job-experience {
-    margin-top: 0px;
-}
-
-#education-details {
-    margin-top: 0px;
-    margin-left: 40px;
+    font-size: x-large;
 }
 
 /*Skills and tools styling*/
@@ -75,18 +60,27 @@ body {
     margin-left: -25px;
     margin-right: -25px;
     justify-content: space-evenly;
-    background-color: #ffffff;
+    background-color: #949189;
     color: #272725;
+}
+
+.skills {
+    margin-bottom: 0px;
+    text-decoration: underline;
     font-size: large;
+    font-weight: bold;
+}
+
+li {
+    margin: 18px;
 }
 
 /*Portfolio styling*/
 
 .portfolio {
-    display:flex;
     margin-bottom: 50px;
-    flex-direction: column;
-    font-size: large;
+    font-size: x-large;
+    background-color:#272725
 }
 
 /*Footer styling*/

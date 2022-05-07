@@ -12,7 +12,6 @@ body {
 
 .header {
     display: flex;
-    justify-content: left;
     margin-top: 25px;
     margin-bottom: 50px;
 }
@@ -38,14 +37,12 @@ body {
 .headshot-and-blurb {
     display: flex;
     margin-bottom: 50px;
-    justify-content: space-evenly;
 }
 
 .photo {
     height: auto;
     width: 300px;
     margin-right: 100px;
-
 }
 
 .bio {

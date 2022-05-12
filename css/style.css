@@ -139,41 +139,51 @@ body {
 /*Portfolio styling*/
 
 .portfolio {
-    font-size: large;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    font-size: large;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: large;
 }
 
 .portfolio h2 {
+    margin-right: auto;
     margin-bottom: 30px;
+    margin-bottom: 30px;
+    padding-right: 30px;
 }
 
 .portfolio-block {
-    display: flex; 
+    display: flex;
+    flex-direction: column; 
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    width: 583px;
+    align-items: flex-start;
 }
 
 .portfolio-box {
-    width: 230px;
-    height: 130px;
+    width: 240px;
+    height: 140px;
+}
+
+.portfolio p {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .portfolio ul {
     font-size: large;
-    list-style-type: none;
     list-style-position: inside;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    padding-left: 30px;
 }
 
 .portfolio ul li {
-    margin-top: 30px;
     margin-bottom: 30px;
 }
 

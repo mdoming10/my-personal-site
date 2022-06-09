@@ -50,25 +50,27 @@ body {
     padding-bottom: 30px;
 }
 
-.ph-school {
-    padding-bottom: 30px;
-}
-
 .photo {
     height: auto;
-    width: 300px;
+    width: 275px;
     margin-right: 100px;
     padding-bottom: 30px;
 }
 
 .bio {
-    font-size: x-large;
-    height: 438px;
+    height: 275px;
     width: 500px;
 }
 
-.paragraph-one {
-    margin-bottom: 30px
+.job-title {
+    font-size: x-large;
+    padding-bottom: 50px;
+}
+
+.description {
+    font-size: x-large;
+    padding-bottom: 50px;
+    padding-left: 109.5px;
 }
 
 /*Skills and tools styling*/
@@ -106,34 +108,6 @@ body {
 
 .s-box ul {
     padding-left: 25px;
-}
-
-/*Experience styling*/
-
-.experience {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: large;
-}
-
-.experience h2 {
-    margin-right: auto;
-    margin-bottom: 30px;
-    padding-right: 30px;
-}
-
-.experience ul {
-    font-size: large;
-    list-style-type: none;
-    list-style-position: inside;
-}
-
-.experience ul li {
-    margin-bottom: 30px;
 }
 
 /*Portfolio styling*/

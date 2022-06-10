@@ -32,12 +32,16 @@ body {
    padding-top: 9.75px;
 }
 
-.github-logo,.linkedin-logo {
+.github-logo, .linkedin-logo, .email-icon {
     height: 35px;
     width: 35px;
 }
 
 .github-logo {
+    margin-right: 25px;
+}
+
+.linkedin-logo {
     margin-right: 25px;
 }
 

@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-.header, .headshot-and-blurb, .button-section, .skills-and-tools-section, .experience, .portfolio, .footer {
+.header, .headshot-and-blurb, .button-section, .experience, .meta-portfolio, .footer {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
@@ -110,93 +110,54 @@ button p {
     font-size: large;
 }
 
-/*Skills and tools styling*/
+/*Portfolio styling*/
 
-.skills-and-tools-section {
+.meta-portfolio {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
     background-color: #dfe0e1;
     color: #38383b;
     border-radius: 5px;
 }
 
-.s-box {
+.meta-portfolio h2 {
+padding-top: 25px;
+}
+
+.portfolio-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.p-box {
     border: 3px solid #38383b;
     border-radius: 5px;
-    width: 330px;
-    height: 230px;
+    width: 300px;
+    height: 200px;
     font-size: large;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
+.explanation {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-.skills {
+.title {
     margin-bottom: 10px;
     font-size: large;
     font-weight: bold;
     padding: 10px;
-    text-align: left;
+    text-align: center;
     background-color: #38383b;
     color: #ffffff;
 }
 
-.s-box ul {
-    padding-left: 25px;
-}
+/*Skills & Tools styling*/
 
-/*Portfolio styling*/
-
-.portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: large;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: large;
-}
-
-.portfolio h2 {
-    margin-right: auto;
-    margin-bottom: 30px;
-    margin-bottom: 30px;
-    padding-right: 30px;
-}
-
-.portfolio-block {
-    display: flex;
-    flex-direction: column; 
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    width: 583px;
-    align-items: flex-start;
-}
-
-.portfolio-box {
-    width: 240px;
-    height: 140px;
-}
-
-.portfolio p {
-    font-size: large;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.portfolio ul {
-    font-size: large;
-    list-style-position: inside;
-    padding-left: 30px;
-}
-
-.portfolio ul li {
-    margin-bottom: 30px;
-}
 
 /*Footer styling*/
 

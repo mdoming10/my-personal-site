@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-.header, .headshot-and-blurb, .button-section, .experience, .meta-portfolio, .footer {
+.header, .headshot-and-blurb, .button-section, .experience, .meta-portfolio, .skills-tools, .footer {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
@@ -162,6 +162,23 @@ padding-top: 25px;
 
 /*Skills & Tools styling*/
 
+.skills-tools {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-tools h2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.skills-exposition {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
 
 /*Footer styling*/
 

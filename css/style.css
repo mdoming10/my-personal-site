@@ -81,7 +81,7 @@ body {
     padding-left: 109.5px;
 }
 
-.headshot-and-blurb span {
+.headshot-and-blurb #resume-link {
     text-decoration: underline;
 }
 

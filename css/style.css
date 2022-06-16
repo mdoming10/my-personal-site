@@ -89,39 +89,6 @@ body {
     color: #ffffff;
 }
 
-/*Button styling*/
-
-.button-section {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
-}
-
-button {
-    background-color: #dfe0e1;
-    color: #38383b;
-    font-size: large;
-    font-weight: light;
-    width: 250;
-    height: 100;   
-    border-radius: 5px;
-    display: flex;
-}
-
-.download-icon {
-    height: 50px;
-    width: 50px;
-    padding-right: 10px;
-}
-
-button p {
-    padding-right: 10px;
-    padding-top: 13.5px;
-    padding-bottom: 13.5px;
-    font-weight: bold;
-    font-size: large;
-}
-
 /*Portfolio styling*/
 
 .meta-portfolio {

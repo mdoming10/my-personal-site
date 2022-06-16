@@ -101,6 +101,7 @@ body {
 
 .meta-portfolio h2 {
 padding-top: 25px;
+margin-bottom: 30px;
 }
 
 .portfolio-section {
@@ -113,10 +114,9 @@ padding-top: 25px;
 .p-box {
     border: 3px solid #38383b;
     border-radius: 5px;
-    width: 300px;
+    width: 400px;
     height: 200px;
     font-size: large;
-    margin-top: 30px;
     margin-bottom: 30px;
 }
 

@@ -80,6 +80,11 @@ body {
     padding-left: 54.75px;
 }
 
+.call-out {
+    font-size: x-large;
+    padding-bottom: 35px;
+}
+
 .headshot-and-blurb #resume-link {
     text-decoration: underline;
 }
